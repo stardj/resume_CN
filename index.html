@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container" id="cv">
+        <div class="side">
+            <div class="me">
+            	<div class="portrait" style="background-image: url(https://raw.githubusercontent.com/stardj/MarkDownPhotos/master/02.jpg);"></div>
+
+                <h1 id="username" >江 荧 辉</h1>
+                
+                <h3 id="persona-tag" >算法工程师</h3>
+            </div>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">个人信息</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">专业</label><span class="label-value">Advanced CS</span></li>
+                    <li>
+                        <label class="left-label">Blog</label><span class="label-value">stardj/github.io</span></li>
+                    <li>
+                        <label class="left-label">Github</label><span class="label-value">github.com/stardj</span></li>
+                </ul>
+            </div>
+            <br>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">手机</label><span class="label-value">+44 7541654593</span></li>
+                    <li>
+                        <label class="left-label">E-mail</label><span class="label-value">stardjyeah@gmail.com</span></li>
+                    
+                </ul>
+            </div>
+            <br>
+            <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">专业方向</span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label">Machi-Learning</label>
+                        <progress value="75" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">NLP</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Text Processing</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                </ul>
+            </div>
+            <br>
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <hr>
+                <ul class="stack-list">
+                    <li>
+                        <label class="left-label">基本技能</label><span class="label-value">Java/ Python/ Data Structures/ Design Patterns/ Linux/ SQL</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">基本算法</label><span class="label-value">Sort/ Rank/ Search/ Regression/ Classiﬁcation/ Cluster/ Quantization</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label"></label><span class="label-value"></span></li>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="code info-unit">
+                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">技术博客</span></h2>
+                <hr>
+                <div class="weixin">
+                    <img src="https://raw.githubusercontent.com/stardj/MarkDownPhotos/master/BlogAddress.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="main">
+            <div class="education info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>谢菲尔德大学（硕士） 2017 至今</h3>
+                        <p>
+                            <b>专业</b> : 高级计算机科学<br>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>湖北工业大学（学士） 2012 - 2016</h3>
+                        <p>
+                            <b>专业</b> : 计算机科学与技术<br>
+                            <b>成就</b> : 学院前10%，连续三年获得奖学金
+                        </p>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">个人项目</span></h2>
+                <hr>
+                <ul class="experience-list">
+                      <li>
+                        <h3>复合词识别（Complex Word Identification）</h3><br>
+                        <p>
+                            <b>项目描述</b>: CWI是文本简化系统的一部分，其目的是为了确定自然语言中的哪些词对于给定的目标人群，如外语学习者、文化程度低的人及有阅读障碍的母语者来说是困难的，哪些词是简单的，以帮助目标人群能更好的阅读理解，而这也是家里更好的词汇简化系统的重要步骤。<br><br>
+                            <b>项目成果</b>: 我在这一部分主要是对英语和西班牙语中的词汇进行难、易的分类。我使用了n-gram模型和TF-IDF作为量化方案，使用LR作为分类器，初始版本的准确率为：英文69%，西班牙文72%。这个项目我还在进一步优化中。<br>
+                            <b>PS</b> : 文本简化系统是一个shared task，由多个大学联合发起，详细信息可参考官网：https://sites.google.com/view/cwisharedtask2018/<br>
+                            <br/>
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3>对影评进行情感分析（Sentiment analysis）</h3><br>
+                        <p>
+                            <b>项目描述</b>: 这个项目主要是想通过对已知情感的影评进行训练，得到一个情感分类模型，并且能够得到样本中正面情感最强的10个词以及负面情感最强的10个词。<br><br>
+                            <b>项目成果</b>: 我使用了n-gram模型和TF-IDF作为量化方案，使用perceptron作为分类器，初始版本的准确率为：85%。perceptron模型里的weight的大小及对应着样本空间里词情感的强弱，及weight最大的10个词为正面情感最强的10个词，weight最小的10个词为负面情感最强的10个词。<br>
+                            <br/>
+                        </p>
+                    </li>
+                    
+                      <li>
+                        <h3>语言模型构建（Language modeling）</h3><br>
+                        <p>
+                            <b>项目描述</b>: 这是一个迷你版的1-billion-word-language-modeling-benchmark实现, 通过一个小量级的训练文本得到一个语言模型，然后通过这个语言模型解决一些简单的完形填空问题，即从给出一个缺少单词的句子候选名单中选择正确的一个选项。为此使用语言模型的方法是考虑句子的每个可能单词，然后询问语言模型哪个版本的句子是最可能的单词。<br><br>
+                            <b>项目成果</b>: 我选择使用n-gram模型作为此次的语言训练模型，答题的初步准确率在80%，但其中还有部分模型概率是0，这主要是因为新词不在训练处的语言模型词库中，进行平滑后这一情况得到改善，准确率也提高到了85%。
+                            <br>
+
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="work info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经验</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>联动优势电子商务有限公司－Java 开发 (2016.7-2017.6)</h3>
+                        <p>
+
+							<b>工作内容</b>: <br>1、参与了公司银行前置系统的接口设计与相关开发。<br>2、参与了公司支付网关系统的升级预研与相关开发。<br>3、开发了与浦发银行、民生银行的协议转换接口，成功上线运行。<br><br>
+							<b>个人评价</b>: 具有良好的沟通能力、团队协作能力以及自我思考学习能力。及能与本公司的技术同事、PM以及银行方的技术人员良好沟通，能够与组员协同工作、同步进度，工作中善于发现问题、勤于思考并最终解决问题。
+                        </p>
+                    </li>
+                  
+                </ul class="experience-list">
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
